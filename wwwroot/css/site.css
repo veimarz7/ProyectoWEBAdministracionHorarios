@@ -200,3 +200,23 @@ a.text-secondary:hover {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+
+#backEmple{
+    background: url(/image/backgroundEmploye.jpg) no-repeat;
+    background-size: cover;
+}
+.registerEmple {
+    background: #f1f1f1f1;
+    padding: 80px 0;
+}
+.registerEmple form {
+  max-width: 480px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 4px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
