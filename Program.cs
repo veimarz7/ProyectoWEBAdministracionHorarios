@@ -1,5 +1,10 @@
+using Microsoft.EntityFrameworkCore;
+using ProyectoWEBAdministracionHorarios.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
+//builder.Services.AddDbContext<BDProyectoWeb3Context>(options =>
+//        options.UseSqlServer(builder.Configuration.GetConnectionString("Conexion")));
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
